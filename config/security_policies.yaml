@@ -1,0 +1,15 @@
+# config/production.yaml
+# Production environment configuration
+
+debug: false
+log_level: INFO
+database:
+  type: postgresql
+  host: localhost
+  port: 5432
+
+security:
+  min_password_length: 12
+  session_timeout_minutes: 30
+  max_login_attempts: 3
+  tls_enabled: true

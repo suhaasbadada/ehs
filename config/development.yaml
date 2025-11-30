@@ -1,0 +1,13 @@
+# config/development.yaml
+# Development environment configuration
+
+debug: true
+log_level: DEBUG
+database:
+  type: sqlite
+  path: ":memory:"
+
+security:
+  min_password_length: 8
+  session_timeout_minutes: 60
+  max_login_attempts: 10
