@@ -1,10 +1,10 @@
 import sys
 import time
-from crypto_manager import CryptoManager
-from access_control import AccessControlSystem
-from audit_system import AuditSystem
-from patient_records import PatientRecordsManager
-from medical_devices import MedicalDeviceManager
+from src.core.crypto_manager import CryptoManager
+from src.auth.access_control import AccessControlSystem
+from src.audit.audit_system import AuditSystem
+from src.data.patient_records import PatientRecordsManager
+from src.data.medical_devices import MedicalDeviceManager
 
 class SecureEHealthDemo:
     def __init__(self):

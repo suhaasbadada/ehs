@@ -14,11 +14,6 @@ Runs a complete end-to-end demonstration of the entire system including:
 **Expected Output**: All tests pass with ✅ indicators for each subsystem
 
 ## Individual Unit Tests
-
-### Test Cryptographic Functions
-```bash
-python tests/unit/test_crypto.py
-```
 Tests AES encryption/decryption and RSA signature generation/verification
 
 ### Test Authentication System
@@ -70,31 +65,15 @@ python main.py
 Simple entry point (outputs startup message)
 
 ### Complete Demo
-```bash
+Please refer to `STRUCTURE.md` and `README.md` for canonical run commands and development instructions. This file has been consolidated into the primary documentation to avoid duplication.
+
+Canonical quick commands:
+
+```powershell
 python final_demo.py
-```
-Full system demonstration (recommended for testing)
-
-## Useful Commands
-
-### Check Python Version
-```bash
-python --version
-```
-
-### Install Requirements
-```bash
+python -m pytest -q
 pip install -r requirements.txt
 ```
-
-### List All Available Tests
-```bash
-dir tests\unit\
-dir tests\integration\
-```
-
-### View Project Structure
-```bash
 tree src/
 tree tests/
 ```

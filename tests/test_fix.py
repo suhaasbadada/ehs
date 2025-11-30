@@ -1,7 +1,7 @@
-from crypto_manager import CryptoManager
-from access_control import AccessControlSystem
-from audit_system import AuditSystem
-from patient_records import PatientRecordsManager
+from src.core.crypto_manager import CryptoManager
+from src.auth.access_control import AccessControlSystem
+from src.audit.audit_system import AuditSystem
+from src.data.patient_records import PatientRecordsManager
 
 def test_patient_record_creation():
     print("Testing patient record creation...")

@@ -1,5 +1,5 @@
-from crypto_manager import CryptoManager
-from access_control import AccessControlSystem
+from src.core.crypto_manager import CryptoManager
+from src.auth.access_control import AccessControlSystem
 
 # Test basic functionality
 print("Testing basic crypto and auth...")
