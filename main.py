@@ -60,9 +60,6 @@ class SecureEHealthSystem:
             print("  - Verify password hashing")
             print("  - Run 'python debug_auth.py' for detailed debugging")
             return
-        
-        # Continue with the rest of the demo...
-        # [Rest of the demo code remains the same]
 
 def main():
     """Main application entry point"""
