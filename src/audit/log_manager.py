@@ -7,7 +7,7 @@ from datetime import datetime
 class LogManager:
     """Manages audit log files"""
     
-    def __init__(self, log_file="audit_log.json"):
+    def __init__(self, log_file="logs/audit_log.json"):
         self.log_file = log_file
     
     def save_log(self, log_entry):

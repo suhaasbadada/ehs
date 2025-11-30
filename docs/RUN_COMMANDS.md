@@ -150,7 +150,7 @@ pip install -r requirements.txt
 Check that the system has write access to create log files
 
 ### Audit Log Issues
-The `audit_log.json` file is created in the project root directory automatically
+The `audit_log.json` file is created in the logs directory automatically
 
 ## Next Steps
 

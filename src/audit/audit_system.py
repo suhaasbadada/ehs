@@ -8,7 +8,7 @@ class AuditSystem:
     def __init__(self, crypto_manager):
         self.crypto_manager = crypto_manager
         self.audit_log = []
-        self.log_file = "audit_log.json"
+        self.log_file = "logs/audit_log.json"
     
     def log_event(self, event_type, user_id, description, patient_id=None, severity="INFO"):
         """Log security event with digital signature"""
