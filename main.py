@@ -38,7 +38,7 @@ class SecureEHealthSystem:
         admin_private_key, admin_public_key = self.crypto_manager.generate_rsa_keypair()
         self.access_control.register_user(
             "admin", 
-            "Admin123!",  # Fixed password
+            "Admin123!",
             "admin", 
             admin_public_key
         )
